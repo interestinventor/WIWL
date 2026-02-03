@@ -2,6 +2,11 @@ source "https://rubygems.org"
 
 gem "jekyll", ">= 3.8.5"
 
+gem "github-pages", group: :jekyll_plugins
+
+# 깃허브 원격 테마를 사용하기 위한 필수 젬
+gem "jekyll-remote-theme"
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate", "~> 1.1.0"
