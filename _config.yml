@@ -17,9 +17,10 @@ linkedin_username:
 
 # Build settings
 # Clean Blog 테마를 사용하기 위한 필수 설정입니다.
-theme: jekyll-theme-clean-blog
+theme: startbootstrap/jekyll-theme-clean-blog
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
