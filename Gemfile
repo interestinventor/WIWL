@@ -13,3 +13,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# 아래 한 줄이 반드시 포함되어야 합니다.
+gem "github-pages", group: :jekyll_plugins
